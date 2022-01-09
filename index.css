@@ -1,0 +1,31 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.container{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+#inputNumber, #btn{
+    width: 10vw;
+}
+#clearall{
+  width: 10vw;
+  height: 5vh;
+}
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#showresult{
+  width: 10vw;
+  height: 100vh;
+} */

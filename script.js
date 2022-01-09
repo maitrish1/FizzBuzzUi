@@ -27,5 +27,5 @@ const fizzBuzz=()=>{
     }
     // console.log(inputValue)
     showResult.innerHTML=arr
-    location.reload()
+    
 }
